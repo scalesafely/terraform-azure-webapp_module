@@ -65,7 +65,7 @@ module "AppService" {
   mysql_resource_id                       = module.scafe_mysql.mysql_resource_id
   app_name                                = var.app_name
   app_service_plan_name                   = var.app_service_plan_name
-  stac_webapp_name                        = var.stac_webapp_name
+  redis                                   = var.redis_name
   docker_image_name                       = var.docker_image_name
   docker_image_tag_name                   = var.docker_image_tag_name
   DRUPAL_SITE_NAME                        = var.DRUPAL_SITE_NAME

@@ -191,3 +191,8 @@ variable "azurerm_subnet_address_prefixes" {
   type = list(string)
   
 }
+
+variable "redis" {
+  type    = string
+}
+
