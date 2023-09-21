@@ -18,10 +18,7 @@ variable "resource_group_name" {
   
 }
 
-variable "storage_account_name" {
-  type    = string
-  
-}
+
 
 variable "azurerm_key" {
   type    = string

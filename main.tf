@@ -62,7 +62,6 @@ module "AppService" {
   #Variables
   resource_group_name                     = var.resource_group_name
   location                                = var.location
-  storage_account_id                      = module.scafe_storage_module.storage_account_id 
   mysql_resource_id                       = module.scafe_mysql.mysql_resource_id
   app_name                                = var.app_name
   app_service_plan_name                   = var.app_service_plan_name
@@ -85,3 +84,7 @@ module "AppService" {
   acr_resource_id                         = module.scafe_acr.acr_resource_id
   resource_group_id                       =  var.resource_group_id
   }
+
+
+
+  
